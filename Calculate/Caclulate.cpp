@@ -87,5 +87,9 @@ int main()
 		descending(numbers, 5);
 		cout << "내림차순 정렬: " << numbers[0] << ", " << numbers[1] << ", " << numbers[2] << ", " << numbers[3] << ", " << numbers[4] << endl;
 	}
+	else
+	{
+		cout << "정확한 숫자를 눌려주세요 " << endl;
+	}
 	return 0;
 }
